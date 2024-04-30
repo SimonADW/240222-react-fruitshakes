@@ -1,0 +1,9 @@
+.listHeader {
+	display: flex;
+	justify-content: space-around;
+}
+
+.listHeader span {
+	width: 5rem;
+	text-align: flex-start;
+}
