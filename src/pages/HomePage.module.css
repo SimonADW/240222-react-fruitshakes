@@ -1,0 +1,30 @@
+.home_content_container {
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	background: peachpuff;
+}
+
+.intro_container {
+	flex-basis: 60%;
+	padding: 2rem;
+}
+
+.intro_container h1 {
+	font-family: great_vibes;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.home_image_container {
+	flex-basis: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.smoothieImage {
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+}

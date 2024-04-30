@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: varela;
+  src: url("./assets/fonts/Varela/Varela-Regular.ttf");
+}
+
+body {
+  font-family: varela;
+}
+
+@font-face {
+  font-family: great_vibes;
+  src: url("./assets/fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+
