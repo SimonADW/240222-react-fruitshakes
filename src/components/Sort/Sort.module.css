@@ -1,0 +1,14 @@
+.liItem {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px dotted green;
+}
+
+.liItem span {
+	width: 3rem;
+}
+
+.liHeader {
+	font-size: 1.3rem;
+	font-weight: 600;
+}

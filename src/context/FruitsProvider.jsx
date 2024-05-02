@@ -9,7 +9,7 @@ const FruitsProvider = ({children}) => {
     try {
       const response = await fetch("http://localhost:4000/");
       const data = await response.json();
-	  const sortedFruits = data.sort((a, b) => a.name.localeCompare(b.name))
+	    const sortedFruits = data.sort((a, b) => a.name.localeCompare(b.name))
       setFruitList(sortedFruits);
     } catch (error) {
       console.log(error.message);

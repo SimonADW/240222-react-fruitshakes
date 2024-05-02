@@ -5,12 +5,8 @@ import {Outlet} from 'react-router-dom';
 const Layout = () => {
 	return (
 		<>
-			<div>
-				<Navbar />
-			</div>
-			<div>
-				<Outlet />
-			</div>
+			<Navbar />
+			<Outlet />
 		</>
 	);
 };

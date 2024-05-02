@@ -14,11 +14,11 @@ const Navbar = () => {
 		<>
 			<nav>
 				<div className={styles.navbar_container}>
-					<div className={styles.logo_container}>
+					<NavLink to={"/"} className={styles.logo_container}>
 						<span>
 							<img src={Logo} alt='Website logo' className={styles.logo} />
 						</span>
-					</div>
+					</NavLink>
 					<div className={styles.links_container}>
 						<NavLink to='/' style={navLinkStyleHandler}>Home</NavLink>
 						<NavLink to='shakes' style={navLinkStyleHandler}>Shakes</NavLink>

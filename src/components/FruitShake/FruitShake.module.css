@@ -1,6 +1,6 @@
 .fruitshake_container {
 	width: 22%;
-	height: 450px;
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	font-size: 0.7rem;
@@ -30,8 +30,4 @@
 	height: 100%;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-  }
-
-  .ingredient::first-letter {
-	
   }
